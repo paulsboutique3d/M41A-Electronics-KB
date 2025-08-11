@@ -36,7 +36,7 @@ All wires are labeled and routed according to the following conventions:
 
 
 ---
-<img width="472" height="655" alt="Screenshot 2025-07-17 194000" src="https://github.com/user-attachments/assets/b9f9e950-c573-45ee-b419-ec67ae8e8052" />
+<img width="472" height="655" alt="467487896-b9f9e950-c573-45ee-b419-ec67ae8e8052" src="https://github.com/user-attachments/assets/2987d446-6e37-44d9-b1e0-b7439fcf34ae" />
 
 ## Wire lengths
 
