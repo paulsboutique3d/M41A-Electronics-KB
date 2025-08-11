@@ -40,7 +40,7 @@ All wires are labeled and routed according to the following conventions:
 
 ## Wire lengths
 
-Wire lengths have been cut to ±2 mm tolerance. All lengths are measured end‑to‑end, excluding connector pin depth.
+All lengths are measured end‑to‑end, excluding connector pin depth.
 
 | Loom  | no wires| From             | To                  | Length (mm) |
 |-------|---------|------------------|---------------------|-------------|
