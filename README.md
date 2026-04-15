@@ -15,17 +15,6 @@ A drop-in electronics package for the M41A Pulse Rifle prop, bringing the iconic
 - **Battery monitoring** — oversampled ADC with low-voltage cutoff (6.9V) and graceful shutdown
 - **Watchdog protection** — 2-second hardware watchdog prevents firmware lockups
 
-## Hardware
-
-| Component | Description |
-|---|---|
-| MCU | ATmega328P — Arduino Pro Mini 5V/16MHz |
-| Audio | DFRobot DF1201S (DFPlayer) |
-| Display | MAX7219 7-segment (2-digit) |
-| LEDs | WS2811 × 2 per barrel |
-| Bluetooth | KCX_BT_EMITTER V1.7 *(optional)* |
-| Programmer | USBasp (ISP) |
-| Battery | 2S LiPo (7.4V nominal) |
 
 ## Documentation
 
@@ -45,30 +34,12 @@ A drop-in electronics package for the M41A Pulse Rifle prop, bringing the iconic
 | Insert magazine | — | Restore ammo, countdown animation |
 | Remove magazine | — | Save ammo, stop all effects |
 
-## Startup Sequence
 
-1. Battery voltage on counter (e.g. `82` = 8.2V)
-2. LED colour cycle
-3. Counter sweep 00 → 99 → 00
-4. Startup sound
-5. Bluetooth status: `b0` (built-in speakers) or `b1` (Bluetooth active)
-6. Green LED flash 3× — **ready**
-7. Counter shows current ammo
-
-> **No Bluetooth module?** The firmware auto-detects the KCX emitter at boot. If it's not installed, built-in speakers are used and Bluetooth controls are disabled. Install the module later — it will be detected on the next power-on.
 
 ## Build Info
 
-The firmware is built with [PlatformIO](https://platformio.org/) targeting the ATmega328P via USBasp programmer.
-
-| Setting | Value |
-|---|---|
-| Platform | Atmel AVR |
-| Board | Pro Mini 5V/16MHz |
-| Framework | Arduino |
-| Fuses | L:0xFF H:0xDA E:0xFD |
-| Watchdog | 2s (software-enabled) |
+T
 
 ## License
 
-This project is provided for personal prop-building use. Please contact [Paul's Boutique 3D](https://github.com/paulsboutique3d) for commercial licensing enquiries.
+This project is provided for personal prop-building use. 
