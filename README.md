@@ -1,6 +1,6 @@
 # M41A Pulse Rifle — Electronics Kit
 
-**By [Paul's Boutique 3D](https://github.com/paulsboutique3d)**
+**By [Paul's Boutique 3D](https://paulsboutique3d.com)**
 
 A drop-in electronics package for the M41A Pulse Rifle prop, bringing the iconic weapon to life with sound, light, and an interactive ammo counter.
 
@@ -35,10 +35,6 @@ A drop-in electronics package for the M41A Pulse Rifle prop, bringing the iconic
 | Remove magazine | — | Save ammo, stop all effects |
 
 
-
-## Build Info
-
-T
 
 ## License
 
