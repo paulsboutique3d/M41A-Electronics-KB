@@ -8,11 +8,13 @@ Insert a fully charged battery (minimum 6.9V) and power on. The rifle runs throu
 2. LEDs cycle through colours
 3. Counter sweeps 00 → 99 → 00
 4. Startup sound plays
-5. Counter shows Bluetooth status: `b0` (built-in speakers) or `b1` (Bluetooth active) for 1.5 seconds
+5. Counter shows Bluetooth module status: `1b` (module detected) or `0b` (not installed) for 1.5 seconds
 6. LEDs flash green 3× — **prop is ready**
 7. Counter shows current ammo (or `00` if no magazine)
 
-> **No Bluetooth module?** If the KCX Bluetooth emitter is not installed, the rifle automatically uses built-in speakers and shows `b0`. You can install the emitter later — the firmware will detect it on the next boot.
+> **No Bluetooth module?** If the KCX Bluetooth emitter is not installed, the rifle automatically uses built-in speakers and shows `0b`. You can install the emitter later — the firmware will detect it on the next boot.
+
+> **Bluetooth always starts off.** Every power-on defaults to built-in speakers. You must toggle Bluetooth on manually each session.
 
 ## Ammo Counter
 
@@ -48,7 +50,7 @@ When all 6 shells are spent, the next trigger pull reloads.
 
 The prop can transmit audio wirelessly to a Bluetooth speaker instead of using the built-in speakers.
 
-**Your Bluetooth setting is remembered.** If the battery dies or you power off while Bluetooth is on, it will automatically restore that setting on the next boot.
+**Your Bluetooth setting resets on every power cycle.** The prop always starts with built-in speakers — you need to toggle Bluetooth on each time you power up.
 
 ### Enable Bluetooth
 1. Remove the magazine
@@ -74,9 +76,8 @@ The prop can transmit audio wirelessly to a Bluetooth speaker instead of using t
 4. The blue phase (first 10s) won't find the old speaker, then cyan phase scans and connects to the new one
 
 ### Power Cycle Behaviour
-- **Bluetooth was on** → boots with speakers muted, counter shows `b1`, KCX reconnects to the last speaker automatically
-- **Bluetooth was off** → boots normally with built-in speakers, counter shows `b0`
-- **Bluetooth module not installed** → forces built-in speakers regardless of previous setting, counter shows `b0`
+- **Every boot** → starts with built-in speakers, counter shows `1b` (module found) or `0b` (not installed)
+- **Bluetooth module not installed** → built-in speakers only, no BT toggle available
 
 ## Low Battery Warning
 
