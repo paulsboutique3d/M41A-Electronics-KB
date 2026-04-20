@@ -36,7 +36,8 @@ All wires are labeled and routed according to the following conventions:
   - **Loom G** ↔ BT emitter ➔ Main board ➔ KCX BT Emitter
 
 ---
-<img width="472" height="655" alt="467487896-b9f9e950-c573-45ee-b419-ec67ae8e8052" src="https://github.com/user-attachments/assets/2987d446-6e37-44d9-b1e0-b7439fcf34ae" />
+<img width="586" height="816" alt="Screenshot 2026-04-20 195407" src="https://github.com/user-attachments/assets/121f99b1-6383-4907-ac0a-198e50643728" />
+
 
 ## Wire lengths
 
