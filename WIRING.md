@@ -33,7 +33,7 @@ All wires are labeled and routed according to the following conventions:
   - **Loom D** LED Remington → Main Board  ➔ remington LED * Positive left at the bottom on main board  
   - **Loom E** → Remington Trigger ➔ Main board ➔ REmington Trigger  * Signal at the top, Ground middle, Positve at the bottom 
   - **Loom F** ↔ Battery ↔ Main board - battery lead  *   one way connector
-
+  - **Loom G** ↔ BT emitter ➔ Main board ➔ KCX BT Emitter
 
 ---
 <img width="472" height="655" alt="467487896-b9f9e950-c573-45ee-b419-ec67ae8e8052" src="https://github.com/user-attachments/assets/2987d446-6e37-44d9-b1e0-b7439fcf34ae" />
@@ -50,6 +50,7 @@ All lengths are measured end‑to‑end, excluding connector pin depth.
 | D     | 3       | Remington LED    | Main Board          | 300         |
 | E     | 3       | Remington        | Main Board          | 100         |
 | F     | 2       | Battery          | Main Board          | 50          |
+| G     | 8       | KCX BT Emitter   | Main Board          | 100         |
 ---
 
 
