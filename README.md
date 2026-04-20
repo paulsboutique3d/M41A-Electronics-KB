@@ -23,18 +23,6 @@ A drop-in electronics package for the M41A Pulse Rifle prop, bringing the iconic
 | [USER-GUIDE.md](USER-GUIDE.md) | How to operate the prop — startup, firing, magazine, Bluetooth, troubleshooting |
 | [WIRING.md](WIRING.md) | Wire loom routing, lengths, and connector pinouts |
 
-## Features at a Glance
-
-| Gesture | Magazine | What It Does |
-|---|---|---|
-| Thompson pull | In | Burst fire (1–4 shots, random sound) |
-| Thompson hold | In | Full-auto fire |
-| Thompson hold 5s | Out | Toggle Bluetooth on/off |
-| Remington pull | — | Single shotgun shot / reload at 0 |
-| Insert magazine | — | Restore ammo, countdown animation |
-| Remove magazine | — | Save ammo, stop all effects |
-
-
 
 ## License
 
