@@ -19,7 +19,7 @@ A drop-in electronics package for the M41A Pulse Rifle prop, bringing the iconic
 - ** 501855 7.4V 1400mAh SM Plug lipo Battery - Available on Ali express, Ebay, Amazon
 - ** approx size 56-62mm Length, 18mm width, 8-10mm high
 
-- <img width="651" height="302" alt="image" src="https://github.com/user-attachments/assets/04fcd103-bbc3-495f-9f63-7cc61bb67326" />
+ <img width="651" height="302" alt="image" src="https://github.com/user-attachments/assets/04fcd103-bbc3-495f-9f63-7cc61bb67326" />
 
 
 ## Documentation
